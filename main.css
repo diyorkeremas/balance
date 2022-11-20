@@ -1,0 +1,199 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 350px;
+    margin-top: 50px;
+    background-image: url(./photo-1622737133809-d95047b9e673.jfif);
+    width: 800px;
+    height: 650px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.form {
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.input {
+    text-transform: uppercase;
+    font-family: SemiBold;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border: 6px solid green;
+    border-radius: 10px;
+}
+.btn {
+    font-family: SemiBold;
+    width: 70px;
+    height: 39px;
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 4px solid green;
+}
+p {
+    font-family: SemiBold;
+    font-size: 28px;
+    color: white;
+}
+.edit {
+    font-family: SemiBold;
+    background-color: green;
+    color: white;
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+}
+.del {
+    font-family: SemiBold;
+    background-color: green;
+    color: white;
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+}
+.item {
+    padding: 20px;
+    border: 4px solid green;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+    height: 20px;
+    margin-left: 60px;
+}
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.475);
+    display: none;
+}
+.modalde {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.open {
+    display: block;
+}
+
+@media screen and (max-width:960px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-left: 50px;
+        margin-top: 50px;
+        background-image: url(./photo-1622737133809-d95047b9e673.jfif);
+        width: 800px;
+        height: 650px;
+    }
+}
+@media screen and (max-width:760px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-left: 50px;
+        margin-top: 50px;
+        background-image: url(./photo-1622737133809-d95047b9e673.jfif);
+        width: 500px;
+        height: 450px;
+    }
+}
+@media screen and (max-width:500px) {
+    .input {
+        text-transform: uppercase;
+        font-family: SemiBold;
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+        border: 6px solid green;
+        border-radius: 10px;
+    }
+    .btn {
+        font-family: SemiBold;
+        width: 50px;
+        height: 39px;
+        background-color: green;
+        color: whitesmoke;
+        border-radius: 10px;
+        border: 4px solid green;
+    }
+    .item {
+        padding: 20px;
+        border: 4px solid green;
+        border-radius: 10px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100px;
+        height: 10px;
+        margin-left: 60px;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-top: 50px;
+        background-image: url(./photo-1622737133809-d95047b9e673.jfif);
+        width: 400px;
+        height: 450px;
+    }
+    .edit {
+        font-family: SemiBold;
+        background-color: green;
+        color: white;
+        height: 25px;
+        width: 60px;
+        border-radius: 10px;
+        margin-left: 80px;
+    }
+    .del {
+        font-family: SemiBold;
+        background-color: green;
+        color: white;
+        height: 25px;
+        width: 60px;
+        border-radius: 10px;
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:430px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-image: url(./photo-1622737133809-d95047b9e673.jfif);
+        width: 350px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:360px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-image: url(./photo-1622737133809-d95047b9e673.jfif);
+        width: 320px;
+        height: 400px;
+    }
+}
